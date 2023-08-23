@@ -5,13 +5,62 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.plants{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+/*.plant1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.plant2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.plant4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.text {
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+///*
 /* do not edit this footer */
 .footer {
   position: fixed;
